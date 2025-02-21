@@ -1,41 +1,43 @@
 // Only for Astro page
 
 export const siteConfig = {
-  title: "Ultimate Astro",
-  description: "The Ultimate Multi-Framework Astro Template",
+  title: "Eastern Shore IT",
+  description: "Professional IT Support in Mobile & Baldwin County",
 };
 
 export const home = {
-  title: "One Template\nEvery Framework",
-  subtitle: "Ultimate Astro Template",
-  description:
-    "Discover the power of multi-framework development with our ultimate Astro template. From React to Vue, Svelte to Solid - experience them all in one blazing-fast website.",
-  features: [
-    {
-      title: "All Frameworks",
-      description: "🎭 React, Vue, Svelte, Solid - use them all together",
-    },
-    {
-      title: "Best Practices",
-      description: "✨ Modern design patterns & optimized performance",
-    },
-    {
-      title: "Ready to Use",
-      description: "🚀 Pre-built components for each framework",
-    },
-  ],
+  title: "Eastern Shore IT Services",
+  subtitle: "Professional IT Support in Mobile Bay Area",
+  serviceNotice: "Business IT Services",
+  serviceSubNotice: "Remote IT Management",
+  serviceExtra: "Optional Retainer Benefits",
+  description: "Expert tech support with instant online scheduling. Remote support starting at $90/hour.",
   stats: [
     {
-      value: "5+",
-      label: "Frameworks",
+      value: "20+",
+      label: "Years Experience"
     },
     {
-      value: "10+",
-      label: "Components",
+      value: "24/7",
+      label: "Client Portal"
     },
     {
-      value: "99",
-      label: "Performance Score",
-    },
+      value: "Local",
+      label: "Mobile Bay Area"
+    }
   ],
+  features: [
+    {
+      title: "Easy Scheduling",
+      description: "Book appointments instantly through our online portal, available 24/7."
+    },
+    {
+      title: "Client Portal",
+      description: "Secure account access, easy payments, and service history tracking."
+    },
+    {
+      title: "Remote Support",
+      description: "Professional remote assistance at $90 per hour. Most issues resolved in one session."
+    }
+  ]
 };

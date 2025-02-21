@@ -6,6 +6,7 @@ import Background from "../components/ui/Background.astro";
 import Footer from "../components/ui/Footer.astro";
 import Header from "../components/ui/Header.astro";
 import "../styles/global.css";
+import CalendarModal from '../components/ui/CalendarModal.astro';
 
 interface Props {
   title: string;
@@ -131,6 +132,7 @@ const {
     <div class="mb-32">
       <Footer />
     </div>
+    <CalendarModal />
   </body>
 </html>
 
