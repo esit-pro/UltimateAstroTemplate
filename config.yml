@@ -1,0 +1,9 @@
+tunnel: easternshoreit-prod
+credentials-file: /root/.cloudflared/ec813f3e-97e7-45b4-84e7-b6fd910fc0eb.json
+
+ingress:
+  - hostname: easternshoreit.com
+    service: http://localhost:4321
+  - hostname: www.easternshoreit.com
+    service: http://localhost:4321
+  - service: http_status:404

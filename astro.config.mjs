@@ -10,7 +10,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ultimate-astro-template.vercel.app/",
+  site: "https://easternshoreit.com/",
   output: "static",
   integrations: [
     tailwind({
@@ -32,13 +32,18 @@ export default defineConfig({
     inlineStylesheets: "auto",
   },
 
+  server: {
+    host: true,
+    port: 4321
+  },
+
   vite: {
     optimizeDeps: {
-      include: ["react", "react-dom", "solid-js"],
+      include: ["react", "react-dom", "solid-js", "react-compiler-runtime"],
       exclude: ["@astrojs/solid-js/client.js"],
     },
     ssr: {
       noExternal: ["@astrojs/*"],
-    },
+    }
   },
 });
